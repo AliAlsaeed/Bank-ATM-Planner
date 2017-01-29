@@ -10,8 +10,8 @@ apiKey = '7273b6bfa6507f581b54f869d8334397'
 customer_url = 'http://api.reimaginebanking.com/enterprise/customers?key={}'.format(apiKey)
 coordinate_url = 'http://nominatim.openstreetmap.org/search/{}?format=json&polygon=1&addressdetails=0&limit=1'
 atm_url = 'http://api.reimaginebanking.com/atms?lat={}&lng={}&rad={}&key={}'
-start = 0
-step = 1000
+start = 30209
+step = 5000
 pbar = ProgressBar(maxval=step).start()
 
 def listener(q):

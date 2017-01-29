@@ -39,7 +39,7 @@
                 map: map,
                 radius: 16093 * 5,    // 10 miles in metres
                 fillColor: getColor(location[2]),
-                fillOpacity: 0.1,
+                fillOpacity: 0.2,
                 strokeColor: 'whitle',
                 strokeWeight: .1
 //            scale: Math.pow(2, magnitude) / 2,
@@ -56,8 +56,10 @@
             return '#750000'
         } else if (size > 50) {
             return '#EA0000';
-        } else if (size > 20) {
-            return '#FF5151';
+        } else if (size > 5) {
+//            return '#2F0000'
+            return '#EA0000';
+//            return '#FF5151';
         } else
             return '#FF9797';
     }
