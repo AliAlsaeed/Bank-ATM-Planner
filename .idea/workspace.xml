@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5932b7a4-8b4c-4082-a896-103c3e0a2878" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/location_generator.py" afterPath="$PROJECT_DIR$/location_generator.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Past Results/IMG_5323.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Past Results/IMG_5324.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Past Results/IMG_5326.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,6 +65,7 @@
         <option value="$PROJECT_DIR$/dbscan_cluster.py" />
         <option value="$PROJECT_DIR$/googleMapsDBSCAN.html" />
         <option value="$PROJECT_DIR$/location_generator.py" />
+        <option value="$PROJECT_DIR$/part2_result.csv" />
       </list>
     </option>
   </component>
