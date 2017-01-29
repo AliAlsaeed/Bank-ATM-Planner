@@ -8,5 +8,7 @@ A shell script is provided for integration of getting data, machine learning, an
 # Usage:
 ./script.sh [1 - 3]
 1: A hierarchical clustering algorithm, from Google Map's built-in API.
+
 2: A density-based clustering algorithm, from Google Map's built-in API.
+
 3: A density-based clustering algorithm (DBSCAN), from scikit-learning.
