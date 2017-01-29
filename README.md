@@ -7,6 +7,6 @@ Visualization is done by including Google Maps's Javascript API.
 A shell script is provided for integration of getting data, machine learning, and visualization.
 # Usage:
 ./script.sh [1 - 3]
-1. A hierarchical clustering algorithm, from Google Map's built-in API.
-2. A density-based clustering algorithm, from Google Map's built-in API.
-3. A density-based clustering algorithm (DBSCAN), from scikit-learning.
+1: A hierarchical clustering algorithm, from Google Map's built-in API.
+2: A density-based clustering algorithm, from Google Map's built-in API.
+3: A density-based clustering algorithm (DBSCAN), from scikit-learning.
