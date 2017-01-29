@@ -11,7 +11,7 @@ customer_url = 'http://api.reimaginebanking.com/enterprise/customers?key={}'.for
 coordinate_url = 'http://nominatim.openstreetmap.org/search/{}?format=json&polygon=1&addressdetails=0&limit=1'
 atm_url = 'http://api.reimaginebanking.com/atms?lat={}&lng={}&rad={}&key={}'
 start = 0
-step = 500
+step = 1000
 pbar = ProgressBar(maxval=step).start()
 
 def listener(q):
@@ -40,7 +40,7 @@ def worker(customer, progress, q):
 
 	address = str(street_number) + " " + str(street_name) + "," + str(zip_code)
 	# print(address)
-	geolocator = geocoder.here(address, app_id='mhEkMCHD6nIsBSOcFgM5', app_code='EO3KfCs16qzPjF6pkKKJLg')
+	geolocator = geocoder.here(address, app_id='MMeAf5MOWL10umS0JVpJ', app_code='m_zv6umczg1-1MiUKsAgWw')
 	# print(geolocator)
 	if (geolocator and len(geolocator.latlng) == 2):
 		atm_request = atm_url.format(geolocator.latlng[0], geolocator.latlng[1], '10', apiKey)
